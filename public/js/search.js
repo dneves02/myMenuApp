@@ -4,7 +4,7 @@ function search() {
     console.log('Searching for: ' + searchString);
  
     // Set up the parameters to send to the API
-    var params = { q: searchString, app_id: '661c2e42', app_key: 'f2af3a7c771087f4a37bfadb93a34d97' };
+    var params = { q: searchString, app_id: '4ccfe2bc', app_key: 'f7a11d998b972a153ee5f89f8d861517' };
  
    // Use jQuery to make the get request
     $.get('https://api.edamam.com/search', params, function(data, status) {
