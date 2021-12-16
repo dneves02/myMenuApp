@@ -4,7 +4,9 @@ a {
 .title{
   color: #06304d;
 }
-
+.menu{
+  text-align: center;
+}
 .title_image {
   height: 600px;
 }
