@@ -8,7 +8,9 @@ a {
   text-align: center;
 }
 .title_image {
-  height: 600px;
+  height: 450px;
+  margin-right: 300px;
+
 }
 
  ul li:nth-child {

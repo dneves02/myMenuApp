@@ -30,7 +30,9 @@ function updateResultList(data) {
       resultList.append('<div class="recipe"><li class="recipe_item" style="list-style-type: none;"><div class="title_block"><a href="'+ url +'"><h1 class="title">' + title + '</h1></div><div class="pic"><a href="'+ url +'"><img class="title_image" src="'+ image +'"></a></div><div class="ing_title"><h3>Ingredients:</h3></div><ul>');
       for (var j = 0; j < data.hits[i].recipe.ingredients.length; j++) {
         var ingredient = data.hits[i].recipe.ingredients[j];
+        resultList.append('<div class="ing_list">');
         resultList.append('<li class="ingredients"><p>' + ingredient.text + '</p></li>');
+        resultList.append('</div>');
       }
       resultList.append('</ul></li></div>');
      }
