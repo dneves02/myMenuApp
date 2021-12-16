@@ -30,7 +30,7 @@ function updateResultList(data) {
       resultList.append('<div class="recipe"><li style="list-style-type: none;"> <a href="'+ url +'"><img class="title_image" src="'+ image +'"><br /></a>');
       
       //resultList.append('<h3><a href="'+ url +'">' + title + '</a></h3>');
-      resultList.append('<div class="title"><a href="'+ url +'"><h1>' + title + '</h1></div> <div class="ingredients"><h3>Ingredients:</h3> <ul>')
+      resultList.append('<div class="ingredients"><div class="title"><a href="'+ url +'"><h1>' + title + '</h1></div> <h3>Ingredients:</h3> <ul>')
       for (var j = 0; j < data.hits[i].recipe.ingredients.length; j++) {
         var ingredient = data.hits[i].recipe.ingredients[j];
         resultList.append('<li><p>' + ingredient.text + '</p></li>');
