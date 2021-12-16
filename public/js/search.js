@@ -27,7 +27,7 @@ function updateResultList(data) {
       var title = data.hits[i].recipe.label;
       var url = data.hits[i].recipe.url;
       var image = data.hits[i].recipe.image;
-      resultList.append('<div class="recipe"><li style="list-style-type: none;"> <a href="'+ url +'"><img class="title_image" src="'+ image +'"><br /></a>');
+      resultList.append('<div class="recipe"><li style="list-style-type: none;"><div class="pic"><a href="'+ url +'"><img class="title_image" src="'+ image +'"><br /></a></div>');
       
       //resultList.append('<h3><a href="'+ url +'">' + title + '</a></h3>');
       resultList.append('<div class="ingredients"><div class="title"><a href="'+ url +'"><h1>' + title + '</h1></div> <h3>Ingredients:</h3> <ul>')
@@ -36,7 +36,7 @@ function updateResultList(data) {
         resultList.append('<li><p>' + ingredient.text + '</p></li>');
         
       } 
-      resultList.append('</ul></div>  </li></div>   <br/><br/><br/>')
+      resultList.append('</ul></div> </li></div> <br/><br/><br/>')
      }
    }
  }
