@@ -16,7 +16,11 @@ a {
  ul li:nth-child {
   list-style-type: none;
 }
-.ing_list{
+.ing_title{
+  float: right;
+  margin-right: 600px;
+}
+.ingredients{
   float: right;
   margin-right: 600px;
 }
