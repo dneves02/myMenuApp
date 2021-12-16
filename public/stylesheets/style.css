@@ -8,7 +8,7 @@ a {
   text-align: center;
 }
 .title_image {
-  height: 550px;
+  height: 450px;
   margin-left: 200px;
 
 }
@@ -16,14 +16,7 @@ a {
  ul li:nth-child {
   list-style-type: none;
 }
-.ing_title{
-  float: right;
-  margin-right: 600px;
-}
-.ingredients{
-  float: right;
-  margin-right: 600px;
-}
+
   input, input:valid {
     border: 2px solid #06304d;
     text-align: center;
