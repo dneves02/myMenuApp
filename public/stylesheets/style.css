@@ -1,6 +1,9 @@
 a {
   text-decoration:none;
 }
+.title{
+  color: #06304d;
+}
 
 .title_image {
   height: 600px;
@@ -42,7 +45,7 @@ a {
   
   #search {
     color: white;
-    background-color: #1A2B6D;
+    background-color: #06304d;
     font: normal normal bold 16px spinnaker,sans-serif ;
     width: 140px;
     border-radius: 8px;
