@@ -8,15 +8,18 @@ a {
   text-align: center;
 }
 .title_image {
-  height: 450px;
-  margin-right: 300px;
+  height: 550px;
+  margin-left: 200px;
 
 }
 
  ul li:nth-child {
   list-style-type: none;
 }
-
+.ing_list{
+  float: right;
+  margin-right: 600px;
+}
   input, input:valid {
     border: 2px solid #06304d;
     text-align: center;
