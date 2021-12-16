@@ -27,12 +27,12 @@ function updateResultList(data) {
       var title = data.hits[i].recipe.label;
       var url = data.hits[i].recipe.url;
       var image = data.hits[i].recipe.image;
-      resultList.append('<div class="recipe"><li style="list-style-type: none;"><div class="title"><a href="'+ url +'"><h1>' + title + '</h1></div><div class="pic"><a href="'+ url +'"><img class="title_image" src="'+ image +'"></a></div><div class="ingredients"><h3>Ingredients:</h3><ul>');
+      resultList.append('<div class="recipe"><li style="list-style-type: none;"><div class="title"><a href="'+ url +'"><h1>' + title + '</h1></div><div class="pic"><a href="'+ url +'"><img class="title_image" src="'+ image +'"></a></div><h3>Ingredients:</h3><ul>');
       for (var j = 0; j < data.hits[i].recipe.ingredients.length; j++) {
         var ingredient = data.hits[i].recipe.ingredients[j];
-        resultList.append('<li><p>' + ingredient.text + '</p></li>');
+        resultList.append('<li class="ingredients"><p>' + ingredient.text + '</p></li>');
       }
-      resultList.append('</ul></div></li></div>');
+      resultList.append('</ul></li></div>');
      }
    }
  }
