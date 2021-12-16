@@ -40,12 +40,10 @@ a {
     border-color: #900;
       background-color: #FDD;
   }
-  
-  
-  
+    
   #search {
-    color: white;
-    background-color: #06304d;
+    color: #06304d;
+    background-color: #F7D360;
     font: normal normal bold 16px spinnaker,sans-serif ;
     width: 140px;
     border-radius: 8px;
